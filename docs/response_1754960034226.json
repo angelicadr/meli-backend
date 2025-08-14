@@ -1,0 +1,22 @@
+[
+  {
+    "id": "MLA001",
+    "title": "iPhone 13 Pro Max",
+    "price": 1200,
+    "currency": "USD",
+    "condition": "new",
+    "pictures": [
+      "../img/Phone_13_Pro_Max_Azul_Sierra.png",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_647937-MCO80948827386_122024-F.webp"
+    ],
+    "sold_quantity": 15,
+    "description": "El último modelo de iPhone con cámara avanzada",
+    "category": "smartphones",
+    "attributes": {
+      "brand": "Apple",
+      "storage": "256GB",
+      "color": "Azul",
+      "battery": "100%"
+    }
+  }
+]

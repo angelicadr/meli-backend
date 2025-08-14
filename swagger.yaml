@@ -1,0 +1,44 @@
+openapi: 3.0.0
+info:
+  title: meli-backend API
+  version: 1.0.0
+  description: API simple para detalles de productos (simulación)
+servers:
+  - url: http://localhost:3000/api
+paths:
+  /products:
+    get:
+      summary: List all products
+      responses:
+        '200':
+          description: A JSON array of products
+  /products/search:
+    get:
+      summary: Search products by query param 'q'
+      parameters:
+        - in: query
+          name: q
+          schema:
+            type: string
+          description: Query string to search
+      responses:
+        '200':
+          description: Search results
+        '400':
+          description: I do not send a product to search  
+        '404':
+          description: Product not found  
+  /products/{id}:
+    get:
+      summary: Get product by id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Product object
+        '404':
+          description: Product not found

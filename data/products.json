@@ -1,0 +1,61 @@
+[
+  {
+    "id": "MLA001",
+    "title": "iPhone 13 Pro Max",
+    "price": 1200,
+    "currency": "USD",
+    "condition": "new",
+    "pictures": [
+      "../img/Phone_13_Pro_Max_Azul_Sierra.png",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_647937-MCO80948827386_122024-F.webp"
+    ],
+    "sold_quantity": 15,
+    "description": "El último modelo de iPhone con cámara avanzada",
+    "category": "smartphones",
+    "attributes": {
+      "brand": "Apple",
+      "storage": "256GB",
+      "color": "Azul",
+      "battery":"100%"
+    }
+  },
+  {
+    "id": "MLA002",
+    "title": "Samsung Galaxy S21",
+    "price": 799,
+    "currency": "USD",
+    "condition": "used",
+    "pictures": [
+      "../img/samsung-galaxy-s21.jgp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_762031-MCO85550127415_062025-F.webp"
+    ],
+    "sold_quantity": 8,
+    "description": "Excelente estado, segunda mano.",
+    "category": "smartphones",
+    "attributes": {
+      "brand": "Samsung",
+      "storage": "128GB",
+      "color": "Phantom Gray",
+      "battery":"90% - 100%"
+    }
+  },
+  {
+    "id": "MLA003",
+    "title": "Teléfono Inteligente Android S23",
+    "price": 120,
+    "currency": "USD",
+    "condition": "used",
+    "pictures": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_618680-CBT81041296942_122024-F.webp"
+    ],
+    "sold_quantity": 6,
+    "description": "Excelente estado, segunda mano. Pantalla extra grande 6'",
+    "category": "smartphones",
+    "attributes": {
+      "brand": "Generic",
+      "storage": "16GB",
+      "color": "Gold",
+      "battery":"90% - 100%"
+    }
+  }
+]
